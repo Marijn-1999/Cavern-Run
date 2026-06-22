@@ -30,7 +30,7 @@ Progress through increasingly difficult cavern sections while avoiding enemies a
 
 You can play Cavern Run on itch.io:
 
-[https://Link to the game](https://marijn1999.itch.io/cavern-run)
+[Link to the itch.io page](https://marijn1999.itch.io/cavern-run)
 
 The game runs in the browser or can be downloaded for use on Game Boy hardware and compatible devices.
 
