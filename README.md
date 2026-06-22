@@ -1,31 +1,42 @@
-Cavern Run
+# Cavern Run
 
-Cavern Run is a 2D platformer developed for the Nintendo Game Boy using GB Studio. The game uses a monochrome art style and takes place in a dark underground cave system filled with enemies and environmental hazards.
+**Cavern Run** is a 2D platformer developed for the Nintendo Game Boy using GB Studio. The game uses a monochrome art style and takes place in a dark underground cave system filled with enemies and environmental hazards.
 
 The game is hosted on itch.io and can be played directly in the browser or downloaded to run on original hardware or Game Boy-compatible devices.
 
-Overview
+## Overview
 
-You navigate through a series of underground caverns where survival depends on movement precision and timing. The environment is minimal and atmospheric, focusing on classic handheld platforming design.
+You navigate through a series of underground caverns where survival depends on precise movement and timing. The environment is minimal and atmospheric, focusing on classic handheld platforming design.
 
-Features
-Monochrome Game Boy-style visuals
-Cave-based level design
-Enemy avoidance gameplay
-Designed for both browser play and Game Boy hardware
-Built with classic retro constraints in mind
-Gameplay
+## Features
 
-Progress through underground tunnels while avoiding enemies and hazards. The focus is on simple but tight platforming challenges in a confined, atmospheric world.
+- Monochrome Game Boy-style visuals  
+- Underground cave-themed levels  
+- Enemy avoidance gameplay  
+- Designed for browser play and Game Boy hardware  
+- Built with retro development constraints  
 
-Controls
-Move left/right: D-Pad
-Jump: A button
-Dash: B button
-Credits
-Developed with GB Studio
-Assets by Kenney
-Runs on Nintendo Game Boy hardware and compatible systems
-Play the Game
+## Gameplay
 
-Available on itch.io (browser play supported).
+Progress through increasingly difficult cavern sections while avoiding enemies and hazards. The focus is on simple, tight platforming challenges in a confined underground world.
+
+## Controls
+
+- Move left/right: D-Pad  
+- Jump: A button  
+- Dash: B button  
+
+## Play the Game
+
+You can play Cavern Run on itch.io:
+
+https://YOUR-ITCH-URL-HERE
+
+The game runs in the browser or can be downloaded for use on Game Boy hardware and compatible devices.
+
+## Credits
+
+- Developed using GB Studio  
+- Assets by Kenney: https://kenney.nl  
+- Designed for Nintendo Game Boy and compatible systems  
+- Hosted on itch.io
