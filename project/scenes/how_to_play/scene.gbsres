@@ -1,0 +1,72 @@
+{
+  "_resourceType": "scene",
+  "id": "2b5f83b2-ded3-4983-8cf6-6ac314f66e46",
+  "_index": 1,
+  "name": "How To Play",
+  "backgroundId": "743537b7-0e69-4bbc-8d3a-f56cab02198a",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 456,
+  "y": 256,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "c4ce8afb-e7af-434a-a870-ade20181b1a2"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start",
+          "select",
+          "b",
+          "a",
+          "right",
+          "up",
+          "left",
+          "down"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ddda1d72-1bab-4c99-83df-92b756c94877",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "f7d9b4f7-1800-447f-bd46-adaa198f0be1"
+          }
+        ]
+      },
+      "id": "3a33d610-7eb9-4c89-9a88-81c43bb3fce5"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "red",
+  "playerSpriteSheetId": ""
+}

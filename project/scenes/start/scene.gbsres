@@ -1,0 +1,96 @@
+{
+  "_resourceType": "scene",
+  "id": "ddda1d72-1bab-4c99-83df-92b756c94877",
+  "_index": 2,
+  "name": "Start",
+  "backgroundId": "83f64966-47ac-477b-a7c9-03cbd27c5e50",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 288,
+  "y": 256,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9af46762-d420-4f15-bceb-32743d926fa5",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 23
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "af7da19e-d546-4e4a-af01-e5acf770e7f6"
+          }
+        ]
+      },
+      "id": "df8afa98-1859-401d-b409-a9f35116b11e"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "2b5f83b2-ded3-4983-8cf6-6ac314f66e46",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "120f1537-3ba0-460b-af14-efddafb4fa71"
+          }
+        ]
+      },
+      "id": "239227ac-0e53-4435-b669-8e6de9ba9c5b"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "1a8dbda7-6e29-41d7-9672-0f1e257ab844"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "red"
+}

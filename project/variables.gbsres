@@ -1,0 +1,11 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Health",
+      "symbol": "var_health"
+    }
+  ],
+  "constants": []
+}
