@@ -15,6 +15,7 @@ You navigate through a series of underground caverns where survival depends on p
 - Enemy avoidance gameplay  
 - Designed for browser play and Game Boy hardware  
 - Built with retro development constraints  
+- Requires GB Studio Platformer Plus plugin  
 
 ## Gameplay
 
@@ -30,13 +31,14 @@ Progress through increasingly difficult cavern sections while avoiding enemies a
 
 You can play Cavern Run on itch.io:
 
-[Link to the itch.io page](https://marijn1999.itch.io/cavern-run)
+https://marijn1999.itch.io/cavern-run
 
 The game runs in the browser or can be downloaded for use on Game Boy hardware and compatible devices.
 
 ## Credits
 
 - Developed using GB Studio  
+- Uses the GB Studio Platformer Plus plugin  
 - Assets by Kenney: https://kenney.nl  
 - Designed for Nintendo Game Boy and compatible systems  
 - Hosted on itch.io
